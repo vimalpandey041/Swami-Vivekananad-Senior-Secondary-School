@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home || SVSSS</title>
     <link rel="stylesheet" href="/owlcarousel/owl.carousel.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="/owlcarousel/owl.theme.default.min.css">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -32,8 +33,16 @@
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-md navbar-light bg-light shadow">
-        <div class="row">
+    <div class="flex">
+      <div class="flex-1">
+        
+      </div>
+      <div class="flex-1">
+        
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-md pb-0 shadow navbar-light bg-light shadow">
+        <div class="row ">
             <div class="col-sm-10 col-md-4 col-lg-4 col-xxl-4 col-10 col-xl-4">
                 <a class="navbar-brand" href="#"><img src="/img/gemschool-logo.png" class="img-fluid"  alt=""></a>
             </div>
@@ -104,19 +113,76 @@
         </div>
         
       </nav>
-      <div class="owl-carousel owl-theme">
-        <div class="item" style="width:auto">
-        <img src="/img/1.png" alt="">
+      <div class="container-fluid p-0  ">
+        <div class="owl-carousel owl-theme" >
+          <div class="item ">
+          <img src="/img/1.png" class=" h-[200px] xl:h-[500px]"  alt="">
+          </div>
+          <div class="item">
+          <img src="/img/1.png" class=" h-[200px] xl:h-[500px]" alt="">
+          </div>
+          <div class="item">
+          <img src="/img/2.png" class=" h-[200px] xl:h-[500px]" alt="">
+          </div>
+          <div class="item">
+          <img src="/img/3.png" class=" h-[200px] xl:h-[500px]" alt="">
+          </div>
+      </div>
+      </div>
+    <div class="container-fluid py-5 px-5 ">
+      <div class="row">
+        <div class="col-sm-8 bg-white text-danger">
+          <h3>Vision</h3>
+          <div class="row">
+            <div class="col-md-4 bg-danger">
+              <div class="card">
+                <div class="card-body">
+                  <img src="http://www.dpsmahendragarh.com/images/home-mission.JPG" alt="" class="card-img">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 bg-primary text-white">
+              <h4>Our Purpose is to</h4>
+              <ul>
+                <li>Safeguard Children</li>
+                <li>Safeguard Children</li>
+                <li>Safeguard Children</li>
+                <li>Safeguard Children</li>
+              </ul>
+            </div>
+            <div class="col-md-4 bg-danger text-white">
+              <h4>Our Purpose is to</h4>
+              <ul>
+                <li>Safeguard Children</li>
+                <li>Safeguard Children</li>
+                <li>Safeguard Children</li>
+                <li>Safeguard Children</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="item" style="width:auto">
-        <img src="/img/1.png" alt="">
+        <div class="col-sm-4">
+          <h3>Latest Events</h3>
+          <div class="row justify-content-center align-items-center py-3 ">
+            <div class="col-sm-4 pt-4">
+              <span class="bg-danger px-5 py-4">Pandey</span>
+              <span class="bg-info px-5 py-4"> Pandey</span>
+            </div>
+            <div class="col-sm-8">
+              <h4>Teacher's Day</h4>
+            </div>
+          </div>
+          <div class="row justify-content-center align-items-center py-3">
+            <div class="col-sm-4 pt-4">
+              <span class="bg-danger px-5 py-4">Pandey</span>
+              <span class="bg-info px-5 py-4"> Pandey</span>
+            </div>
+            <div class="col-sm-8">
+              <h4>Teacher's Day</h4>
+            </div>
+          </div>
         </div>
-        <div class="item" style="width:auto">
-        <img src="/img/2.png" alt="">
-        </div>
-        <div class="item" style="width:auto">
-        <img src="/img/3.png" alt="">
-        </div>
+      </div>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -129,7 +195,7 @@
     autoWidth:true,
     items:4,
     autoplay:true,
-    lazyLoad: true
+    lazyLoad: true,
     autoplayTimeout:3000,
     autoplayHoverPause:true
 })
