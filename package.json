@@ -1,0 +1,26 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimalpandey041/Swami-Vivekananad-Senior-Secondary-School.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vimalpandey041/Swami-Vivekananad-Senior-Secondary-School/issues"
+  },
+  "homepage": "https://github.com/vimalpandey041/Swami-Vivekananad-Senior-Secondary-School#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.8"
+  }
+}
